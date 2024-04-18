@@ -4,8 +4,8 @@
 }
 footer {
   text-align: center;
-  backround-color: white;
-  border: 4px solid black;
+  backround-color: #ffffff;
+  border: 4px solid #000000;
   padding: 20px;
 }
 header {
@@ -53,6 +53,7 @@ header .menu-toggle{
 
 /* This css is used for window size of 768 and wider.
         Note: how it is listed at bottom of css */
+        
 @media (min-width: 768px) {
   .menu-toggle {
     display: none;
