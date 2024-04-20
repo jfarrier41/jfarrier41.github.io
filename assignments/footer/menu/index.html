@@ -1,58 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
-    <head> <!--does not show in browser-->
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width">
-        <title>My title pages</title>
-        <link rel = "stylesheet" href= "css/style.css"/>
-       </head>
-            <!-- 
+  <head>
+    <!--does not show in browser-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My title pages</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <!-- 
       Copied and modified from your Github account
 		-->
 
-    <body>
-      <header>
-        <h1>The Farriers</h1>
-        <!-- character for three lines -->
-        <div class="menu-toggle">&#9776;</div>
-        <nav class="nav-menu">
-          <ul>
-            <li><a href="index.html"> Home</a></li>
-            <li><a href="page1.html">Brother1</a></li>
-            <li><a href="page2.html">Brother2</a></li>
-            <li><a href="page3.html">Sister1</a></li>
-            <li><a href="page4.html">Sister2</a></li>
-            <li><a href="page5.html">Brother3</a></li>
-          </ul>
-        </nav>
-      </header>
-      <footer>
-        If any information is inaccurate, call 1-(800)-404-4040
-        <div>
-               Or Click here:
-               <a href="https://theuselessweb.com/?lang=en_gb"  > Link </a>
-
-        </div>
-        
-       </footer>
-
-      <div class="content">
-        <!-- Your website content here -->
+  <body>
+    <header>
+      <h1>The Farriers</h1>
+      <!-- character for three lines -->
+      <div class="menu-toggle">&#9776;</div>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="page1.html">Brother1</a></li>
+          <li><a href="page2.html">Brother2</a></li>
+          <li><a href="page3.html">Sister1</a></li>
+          <li><a href="page4.html">Sister2</a></li>
+          <li><a href="page5.html">Brother3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <footer>
+      If any information is inaccurate, call 1-(800)-404-4040
+      <div>
+        Or Click here:
+        <a href="https://theuselessweb.com/?lang=en_gb"> Link </a>
       </div>
-      <!-- script referenced at bottom just to stop loading issues -->
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const menuToggle = document.querySelector(".menu-toggle");
-          const navMenu = document.querySelector(".nav-menu");
-  
-          menuToggle.addEventListener("click", function () {
-            navMenu.classList.toggle("active");
-          });
+    </footer>
+
+    <div class="content">
+      <!-- Your website content here -->
+    </div>
+    <!-- script referenced at bottom just to stop loading issues -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navMenu = document.querySelector(".nav-menu");
+
+        menuToggle.addEventListener("click", function () {
+          navMenu.classList.toggle("active");
         });
-        
-      </script>
-    </body>
-  </html>
-
-
-
+      });
+    </script>
+  </body>
+</html>
