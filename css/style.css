@@ -1,3 +1,4 @@
+/* Makes sure all elements start with no padding or margin */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +14,8 @@ footer {
   border: 4px solid #000000;
   padding: 20px;
 }
-
+/* Displays items in header as flex, sets direction of items and defines
+the container and then aligns them. */
 header {
   display: flex;
   overflow: hidden;
@@ -28,15 +30,15 @@ header {
 header .menu-toggle {
   margin-left: auto;
 }
-
+/* Without using the postion absolite, the menu moves out of line */
 .menu-toggle {
   cursor: pointer;
   font-size: 2rem;
   text-align: right;
-  position: absolute;
+  position: absolute; 
   align-self: flex-end;
 }
-
+/* Hides menu until it is active */
 .nav-menu {
   display: none;
 }
@@ -44,7 +46,7 @@ header .menu-toggle {
 .nav-menu.active {
   display: block;
 }
-
+/* Removes defail style and adds a little space at top of list. */
 .nav-menu ul {
   list-style-type: none;
   margin-top: 8px;
@@ -64,7 +66,7 @@ header .menu-toggle {
   border-bottom: 1px solid #fff;
 }
 
-.container {
+#container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,19 +84,30 @@ img {
   height: auto;
   margin-bottom: 5px;
   border: 4px solid #333;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.5)
+  box-shadow: 2px 2px 5px rgba(0,0,0,1)
   
 }
+
+h1 {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
 
 h2 {
   margin: 0;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 h3,p {
   display: inline;
-  margin: 0;
+}
+
+span {
+    font-weight: bold;
 }
 
 .member h2 a {
