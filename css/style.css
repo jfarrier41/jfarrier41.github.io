@@ -15,7 +15,7 @@ footer {
   padding: 20px;
 }
 /* Displays items in header as flex, sets direction of items and defines
-the container and then aligns them. */
+the container and then aligns them. Abby helped with header alignment*/
 header {
   display: flex;
   overflow: hidden;
@@ -46,7 +46,7 @@ header .menu-toggle {
 .nav-menu.active {
   display: block;
 }
-/* Removes defail style and adds a little space at top of list. */
+/* Removes defaul style and adds a little space at top of list. */
 .nav-menu ul {
   list-style-type: none;
   margin-top: 8px;
